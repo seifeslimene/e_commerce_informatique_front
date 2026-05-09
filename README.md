@@ -1,5 +1,9 @@
 # ✅ E-Commerce Informatique
 
+## 📸 Project Preview
+
+![E-Commerce Informatique Homepage](./public/homepage-preview.png)
+
 ---
 
 ## 📦 Backend (Node.js + Express + MongoDB + Mongoose)
