@@ -1,9 +1,10 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
+import { apiOrigin } from './origin';
 
 export const userApi = createApi({
   reducerPath: 'userApi',
   baseQuery: fetchBaseQuery({
-    baseUrl: 'http://localhost:8000/user',
+    baseUrl: `${apiOrigin}/user`,
     prepareHeaders: (headers) => {
       const token = sessionStorage.getItem('token');
       if (token) {
